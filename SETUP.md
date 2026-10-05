@@ -105,3 +105,5 @@ Save `env.example` → `.env` (at your project root) and fill in what you use:
 | `OPENAI_API_KEY` | optional | Whisper caption fallback |
 
 Add `.env` to your `.gitignore`. Never commit real keys.
+
+Verify the keys with `bash scripts/test-apis.sh` (free, read-only checks). Add `--audio` to also run a short Gemini TTS → ElevenLabs STS round-trip, and `--music` for one Suno generation (~12 Kie credits).
