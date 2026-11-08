@@ -52,3 +52,46 @@
 - Nada de gore, nada de inventar datos y respeto por las víctimas.
 - Nada de clips, canciones ni videos ajenos.
 - Las imágenes IA, marcadas como contenido sintético.
+
+---
+
+## Validación de los 3 canales de ejemplo (8 nov 2026)
+
+**Idioma:** la narración original de los tres es **en inglés**. Lo comprobé con la transcripción de *America’s Dark Corners* y de *Lighthouse Mysteries*. La de *Silas Investigates* no se pudo descargar porque el video tiene restricción de edad. Si al verlos se oye español, casi seguro es el **doblaje automático de YouTube**: suena en el idioma de quien mira, pero la miniatura sigue en inglés. Para comprobarlo: ⚙️ Configuración → Pista de audio → “Español (doblaje automático)” / “Inglés (original)”. **Ventaja:** un canal en inglés también llega a hispanohablantes sin hacer nada más.
+
+**¿Son homicidios?** No todos:
+| Canal | Tema real | ¿Homicidios? | ¿Apto para todos? |
+|---|---|---|---|
+| America’s Dark Corners | Casas de EE.UU. donde hubo asesinatos | **Sí** | Sí (el video principal) |
+| Silas Investigates | Desapariciones, gente que reapareció, periodistas asesinados | **En parte** | **No:** su video más visto tiene restricción de edad |
+| Lighthouse Mysteries | Encuentros paranormales (extraterrestres de Kentucky en 1955, “hombre lobo” de Wisconsin en 1991, OVNI de Illinois en 2000, el muñeco Robert) | **No** | Sí |
+
+**Datos confirmados (NexLev):**
+- Los tres **tienen la monetización activa**.
+- *America’s Dark Corners* (creado en octubre de 2026, 23 videos de unos 28 minutos): pasó de 450 a 4.700 suscriptores y suma unos 1,3M de vistas en 30 días. **Va bajando:** de 467K vistas por semana a 176K.
+- *Silas Investigates* (creado en agosto de 2026, 38 videos de 1 a 2 horas): un video viral lo lanzó, con un pico de unas 320K vistas por semana en septiembre. **Ha caído a 61K por semana.**
+- *Lighthouse Mysteries* (**solo 7 videos** de 20 a 29 minutos, uno por semana): 15.900 suscriptores y 1,2M de vistas en 30 días, **y sigue creciendo** (entre 200K y 480K vistas por semana).
+
+**Correcciones a lo que dije antes:**
+1. **El nicho son dos cosas:** casos criminales (true crime) y misterios o hechos paranormales. No todo son homicidios.
+2. **Lo que paga cada vista es más bajo de lo que puse.** En los canales de estilo documental está entre **$4 y $7 por cada 1.000 vistas** (True Crime Files $6,1, Hunter.S. $6,8, Lately $5,8, Lighthouse $5,3). El dato de $13,8 era una estimación para videos de más de 60 minutos y no hay que contar con él. Los canales que usan videos de cámaras policiales (DB Crime, Crime Cases) se quedan en unos $2,7, aunque tengan millones de vistas.
+3. **El crimen violento recibe menos anuncios:** restricción de edad y anuncios limitados. Los misterios y los lugares sí son aptos para todos.
+4. **Muchos canales dependen de un video que se hace viral y después bajan.** El que crece de forma estable (*Lighthouse*) publica poco y bien: un caso por video, uno por semana.
+
+**Nicho validado, con ajuste:** **“Misterios de EE.UU. y lugares oscuros”**, apto para todo público:
+- Casos antiguos y documentados, como desapariciones históricas, casas con historia, hechos sin explicar y leyendas regionales.
+- Una investigación por video (25–40 minutos), al estilo de *Lighthouse*.
+- Sin sangre, sin morbo con víctimas recientes y sin videos de cámaras policiales.
+- Las fotos y los periódicos publicados en EE.UU. antes de 1931 suelen ser de dominio público; hay que comprobarlo en cada uno.
+
+**Temas propuestos** (casos antiguos o documentados; comprobar cada dato):
+- Los niños Sodder (1945)
+- Los cinco de Yuba County (1978)
+- El Mothman de Point Pleasant (1966–67)
+- El monstruo de Flatwoods (1952)
+- La bruja Bell de Tennessee (1817)
+- La casa de Villisca (1912)
+- La casa de Lizzie Borden (1892)
+- D.B. Cooper (1971)
+- La colonia perdida de Roanoke
+- El barco Mary Celeste (1872)
