@@ -38,7 +38,9 @@ Criterios: RPM estimado, cuántos canales **nuevos** (creados desde mayo de 2026
 
 | # | Nicho | RPM est. | Canales en la muestra / nuevos / nuevos con $3K+ al mes | Dificultad | Riesgo | Veredicto |
 |---|---|---|---|---|---|---|
-| 1 | **Nostalgia americana (años 1950–1970, pueblos de “antes”)** | $8–10 | 11 / 6 / 5 | Baja | Bajo | ⭐ Mejor relación oportunidad/saturación |
+| 1 | **Nostalgia americana (años 1950–1970, pueblos de “antes”)** | $8–10 en esta muestra (ver corrección abajo) | 11 / 6 / 5 | Baja | Bajo → Medio | ⭐ Mejor relación oportunidad/saturación |
+
+> **Corrección (8 nov 2026):** esta muestra solo incluía canales con RPM de $8 o más, así que infla el RPM de cada nicho. Una búsqueda posterior de 30 canales de nostalgia sin ese filtro da una **mediana de $3,6**. Los videos de 10–30 min están en $2–4,5 y los de 60–98 min en $10–13. Además, **13 de esos 30 canales se crearon en 2026**: el formato genérico “25 Forgotten…” se está copiando rápido. Ver `nicho-nuevo-usa-nostalgia-latina.md`.
 | 2 | **Documentales largos “para dormir” en un subnicho** (física, océano profundo, paleontología, historia de EE.UU.) | $10–16 | 46 / 22 / 14 | Media | Medio (saturación) | ⭐ Mayor RPM, entrar con un subnicho |
 | 3 | **True crime y fraudes en compilaciones largas** | $9–16 | 22 / 14 / 12 | Media | Medio | ⭐ Sinergia directa con *Fraude Perfecto* |
 | 4 | **Historias para mayores**: venganza familiar, romance de duques, del Oeste o de *Navy SEALs* | $11–16 | ~30 / ~20 / ~18 | Baja | Alto (saturación y “contenido no auténtico”) | Rentable, pero solo con un ángulo propio |
