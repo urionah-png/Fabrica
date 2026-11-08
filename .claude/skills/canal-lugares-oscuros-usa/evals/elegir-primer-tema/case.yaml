@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: elegir-primer-tema
+expected_outcome: |
+  The reply, in Spanish, scores a few candidate places with the channel's 6-criterion table (demand, sources, free images, sale history, risk, seasonal hook), recommends a low-risk place with lots of public-domain material, and explains why in simple language.
