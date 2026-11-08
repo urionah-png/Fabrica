@@ -1,5 +1,7 @@
 # Nombres del canal
 
+**Nombre elegido: Must Disclose** (@MustDisclose). Huascar lo comprobó en YouTube el 8 de noviembre de 2026. La lista de abajo queda solo como reserva.
+
 **Comprobación:** búsqueda de canales en YouTube (NexLev `youtube_search`, tipo canal) del **8 de noviembre de 2026**. En ninguno de estos 10 apareció un canal con el mismo nombre exacto. Eso **no garantiza** que el @usuario esté libre: hay que confirmarlo al crear el canal (YouTube avisa si está ocupado).
 
 | # | Nombre | Por qué funciona | Encaja con |

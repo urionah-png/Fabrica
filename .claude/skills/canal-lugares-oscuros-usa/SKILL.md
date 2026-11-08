@@ -1,6 +1,6 @@
 ---
 name: canal-lugares-oscuros-usa
-description: "Arma y produce el canal de YouTube en inglés para EE.UU. sobre lugares con un pasado oscuro: casas donde hubo asesinatos, manicomios, prisiones, fábricas, pueblos y terrenos, más las desapariciones, homicidios antiguos y misterios sin explicar ligados a esos lugares. Cada video es la biografía de un lugar con su historia de compraventa. Úsalo para crear la identidad del canal, elegir e investigar temas, escribir guiones en inglés, preparar narración, imágenes, mapas, miniaturas, títulos, descripciones y Shorts, y para analizar estadísticas del canal. Úsalo también cuando Huascar diga cosas como “haz el siguiente video del canal en inglés”, “guion de Villisca”, “qué tema hago”, “miniatura para Centralia”, “casas donde hubo asesinatos”, “murder houses”, “abandoned asylum”, “ghost town”, “cold case” o “unsolved mystery”, aunque no nombre el skill."
+description: "Arma y produce el canal de YouTube en inglés para EE.UU. sobre lugares con un pasado oscuro: casas donde hubo asesinatos, manicomios, prisiones, fábricas, pueblos y terrenos, más las desapariciones, homicidios antiguos y misterios sin explicar ligados a esos lugares. Cada video es la biografía de un lugar con su historia de compraventa. Úsalo para crear la identidad del canal, elegir e investigar temas, escribir guiones en inglés, preparar narración, imágenes, mapas, miniaturas, títulos, descripciones y Shorts, y para analizar estadísticas del canal. Úsalo también cuando Huascar diga cosas como “haz el siguiente video del canal en inglés”, “guion de Villisca”, “qué tema hago”, “miniatura para Centralia”, “casas donde hubo asesinatos”, “murder houses”, “abandoned asylum”, “ghost town”, “cold case”, “unsolved mystery” o nombre el canal Must Disclose, aunque no nombre el skill."
 ---
 
 # Canal en inglés: lugares de EE.UU. con un pasado oscuro
@@ -38,6 +38,13 @@ description: "Arma y produce el canal de YouTube en inglés para EE.UU. sobre lu
 10. **Cada video distinto de verdad.** Nuevo lugar, nuevo gancho, nuevos datos y nueva estructura de imágenes. *Por qué:* YouTube excluye de la monetización el contenido repetitivo hecho en serie (“contenido no auténtico”).
 11. **Divulgación de IA:** si hay ilustraciones IA o voz IA realista, en YouTube Studio se marca “Contenido alterado o sintético: Sí”.
 
+## Dónde se guardan los archivos
+Todo el trabajo del canal va en una carpeta `canal/`.
+- **En Claude Code con un repositorio** (lo normal): `canal/` va en la raíz del repositorio. Al terminar cada paso importante (identidad, ficha, guion, textos de subida), haz commit y push a la rama de la sesión. *Por qué:* la máquina de la sesión se borra al cerrarse, y lo que no se sube al repositorio se pierde.
+- **En un proyecto de claude.ai** (sin repositorio): usa `/mnt/project-files/canal/`.
+- Al empezar, busca `canal/identidad_canal.md`. Si no está en la rama actual, busca en las ramas del repositorio (`git fetch` y `git branch -r`) y, si está en otra, trae la carpeta (`git checkout origin/<rama> -- canal/`) antes de dar por hecho que el canal no está armado.
+- El audio, el video y las imágenes pesadas no se suben al repositorio: añade `canal/**/audio/`, `canal/**/imagenes/` y `canal/**/final/` al `.gitignore`. Entrégaselos a Huascar como archivos antes de terminar la sesión, porque después se pierden.
+
 ## Modos de trabajo
 Elige el modo según lo que pida Huascar:
 - **A · Armar el canal** (una vez): identidad, nombre, descripción, voz, estilo visual. → abajo.
@@ -50,9 +57,9 @@ Elige el modo según lo que pida Huascar:
 ---
 
 ## Modo A · Armar el canal
-Si `/mnt/project-files/canal/identidad_canal.md` no existe, empieza aquí.
+Si `canal/identidad_canal.md` no existe, empieza aquí.
 
-1. **Nombre.** Propón los de `references/nombres.md`, con su motivo, y explica que el @usuario se confirma al crear el canal (YouTube avisa si está ocupado). Huascar elige. Recomendación por defecto: **Must Disclose**.
+1. **Nombre: Must Disclose** (elegido y comprobado por Huascar el 8 de noviembre de 2026). Usa ese nombre en todo. Propón otros de `references/nombres.md` solo si Huascar lo pide.
 2. **Descripción del canal (inglés, 2 párrafos):** qué hacemos (“Every place keeps a record…”), cada cuánto subimos y la promesa: “Real places. Verified records. Told with respect.” Incluye las palabras true crime, abandoned, history, murder house, asylum, ghost town y unsolved.
 3. **Banner y foto de perfil:** prompts de imagen (casa victoriana oscura bajo un cielo de tormenta + un letrero “FOR SALE” torcido; paleta de negro, gris y un rojo de acento), en 2560×1440 y 800×800. El texto del banner es el nombre del canal y “New place every week”.
 4. **Voz:** voz masculina americana de ElevenLabs, grave, calmada y documental (por ejemplo, una de la biblioteca con el estilo “documentary narrator, American, deep”). Prueba 3, que Huascar elija una y anota el nombre, el voice_id y los ajustes (stability ~0.45, similarity ~0.75, style ~0.3, velocidad 0.95–1.0) para usarlos siempre igual.
@@ -91,7 +98,7 @@ Si `/mnt/project-files/canal/identidad_canal.md` no existe, empieza aquí.
 ## Modo B · Producir un video largo
 
 ### Carpetas
-`/mnt/project-files/canal/videoNN_lugar/` (ej. `video01_centralia/`), con:
+`canal/videoNN_lugar/` (ej. `canal/video01_centralia/`; ver “Dónde se guardan los archivos”), con:
 - `ficha_lugar.md` · `guion.md` · `resumen_es.md` · `narracion_para_elevenlabs.txt`
 - `lista_imagenes.md` · `prompts_ilustraciones.txt` · `creditos_imagenes.md` · `mapas/`
 - `hoja_de_montaje.md` · `subida_youtube.md` · `shorts.md`
@@ -173,7 +180,7 @@ Un mensaje en español con:
 4. **Pegados, cada uno en su cuadro de código:** los 3 títulos, la descripción, las etiquetas, el comentario fijado y el texto de cada Short.
 5. El recordatorio de “Video relacionado” para los Shorts.
 
-Actualiza la memoria del proyecto con el estado del video.
+Anota el estado del video en `canal/identidad_canal.md` → “Videos” (lugar, fecha, título elegido y qué falta), y haz commit y push.
 
 ---
 

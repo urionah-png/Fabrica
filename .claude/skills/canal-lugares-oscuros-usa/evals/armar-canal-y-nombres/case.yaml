@@ -1,4 +1,0 @@
-schema_version: "1.1"
-name: armar-canal-y-nombres
-expected_outcome: |
-  The reply, in simple Spanish, proposes the channel names from the reference list with a recommendation, warns that the @handle must be confirmed when creating the channel, and delivers the channel identity (English channel description, banner and profile prompts, voice settings, visual style, default settings) with every copyable text pasted in its own code block.
